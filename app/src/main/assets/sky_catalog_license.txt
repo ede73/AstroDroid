@@ -1,0 +1,18 @@
+AstroDroid bundled sky catalog
+
+The sky_catalog.json file is an adapted database, filtered and reformatted for AstroDroid.
+The catalog data is licensed under Creative Commons Attribution-ShareAlike 4.0 International:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+HYG Database v4.1
+Copyright David Nash (Astronexus). Compiled from the Hipparcos, Yale Bright Star, and Gliese catalogs.
+Source: https://github.com/astronexus/HYG-Database
+License: CC BY-SA 4.0
+
+OpenNGC
+Copyright Mattia Verga. Its README documents the upstream sources and per-field provenance.
+Source: https://github.com/mattiaverga/OpenNGC
+Revision: be3cd6c5498806a2fbb2f7e0452ef802dbb02be0
+License: CC BY-SA 4.0
+
+This notice applies to the catalog data, not to the AstroDroid application code.

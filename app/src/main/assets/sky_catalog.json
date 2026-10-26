@@ -1,0 +1,3393 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "hyg-v41",
+      "title": "HYG Database v4.1",
+      "url": "https://github.com/astronexus/HYG-Database",
+      "revision": "c7f7f883fe678cc7680169a50ccd7dcc49b060ce",
+      "license": "CC BY-SA 4.0",
+      "attribution": "HYG Database by David Nash (Astronexus); compiled from Hipparcos, Yale Bright Star Catalog, and Gliese catalogs",
+      "query": "Proper-name stars already represented by the app",
+      "recordCount": 55
+    },
+    {
+      "id": "openngc",
+      "title": "OpenNGC",
+      "url": "https://github.com/mattiaverga/OpenNGC",
+      "revision": "be3cd6c5498806a2fbb2f7e0452ef802dbb02be0",
+      "license": "CC BY-SA 4.0",
+      "attribution": "OpenNGC, Mattia Verga; see per-record Sources in upstream database",
+      "query": "All Messier objects, including M40 and M45 from addendum.csv",
+      "recordCount": 110
+    }
+  ],
+  "objects": [
+    {
+      "id": "hyg-7574",
+      "name": "Achernar",
+      "identifiers": [
+        "HIP 7588",
+        "HD 10144",
+        "HR 472",
+        "Bayer Alp Eri"
+      ],
+      "raDeg": 24.42834,
+      "decDeg": -57.236757,
+      "magnitude": 0.45,
+      "kind": "STAR",
+      "color": [
+        0.6689,
+        0.7647,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-9861",
+      "name": "Hamal",
+      "identifiers": [
+        "HIP 9884",
+        "HD 12929",
+        "HR 617",
+        "Bayer 13Alp Ari"
+      ],
+      "raDeg": 31.793325,
+      "decDeg": 23.462423,
+      "magnitude": 2.01,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.8546,
+        0.6595,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-11734",
+      "name": "Polaris",
+      "identifiers": [
+        "HIP 11767",
+        "HD 8890",
+        "HR 424",
+        "Bayer 1Alp UMi"
+      ],
+      "raDeg": 37.94625,
+      "decDeg": 89.264109,
+      "magnitude": 1.97,
+      "kind": "STAR",
+      "color": [
+        0.9467,
+        0.9472,
+        0.8728,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-15824",
+      "name": "Mirfak",
+      "identifiers": [
+        "HIP 15863",
+        "HD 20902",
+        "HR 1017",
+        "Bayer 33Alp Per"
+      ],
+      "raDeg": 51.08067,
+      "decDeg": 49.86118,
+      "magnitude": 1.79,
+      "kind": "STAR",
+      "color": [
+        0.8963,
+        0.9162,
+        0.9038,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-21368",
+      "name": "Aldebaran",
+      "identifiers": [
+        "HIP 21421",
+        "HD 29139",
+        "HR 1457",
+        "Bayer 87Alp Tau"
+      ],
+      "raDeg": 68.980155,
+      "decDeg": 16.509301,
+      "magnitude": 0.87,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.711,
+        0.4678,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-24378",
+      "name": "Rigel",
+      "identifiers": [
+        "HIP 24436",
+        "HD 34085",
+        "HR 1713",
+        "Bayer 19Bet Ori"
+      ],
+      "raDeg": 78.63447,
+      "decDeg": -8.20164,
+      "magnitude": 0.18,
+      "kind": "STAR",
+      "color": [
+        0.7265,
+        0.8095,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-24549",
+      "name": "Capella",
+      "identifiers": [
+        "HIP 24608",
+        "HD 34029",
+        "HR 1708",
+        "Bayer 13Alp Aur"
+      ],
+      "raDeg": 79.17225,
+      "decDeg": 45.997991,
+      "magnitude": 0.08,
+      "kind": "STAR",
+      "color": [
+        0.9984,
+        0.979,
+        0.841,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-25273",
+      "name": "Bellatrix",
+      "identifiers": [
+        "HIP 25336",
+        "HD 35468",
+        "HR 1790",
+        "Bayer 24Gam Ori"
+      ],
+      "raDeg": 81.282765,
+      "decDeg": 6.349702,
+      "magnitude": 1.64,
+      "kind": "STAR",
+      "color": [
+        0.6392,
+        0.7416,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-25364",
+      "name": "Elnath",
+      "identifiers": [
+        "HIP 25428",
+        "HD 35497",
+        "HR 1791",
+        "Bayer 112Bet Tau"
+      ],
+      "raDeg": 81.57297,
+      "decDeg": 28.60745,
+      "magnitude": 1.65,
+      "kind": "STAR",
+      "color": [
+        0.6815,
+        0.7745,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-25865",
+      "name": "Mintaka",
+      "identifiers": [
+        "HIP 25930",
+        "HD 36486",
+        "HR 1852",
+        "Bayer 34Del Ori"
+      ],
+      "raDeg": 83.001675,
+      "decDeg": -0.299092,
+      "magnitude": 2.25,
+      "kind": "STAR",
+      "color": [
+        0.6613,
+        0.7588,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-26142",
+      "name": "Meissa",
+      "identifiers": [
+        "HIP 26207",
+        "HD 36861",
+        "HR 1879",
+        "Bayer 39Lam Ori"
+      ],
+      "raDeg": 83.784495,
+      "decDeg": 9.934158,
+      "magnitude": 3.39,
+      "kind": "STAR",
+      "color": [
+        0.668,
+        0.764,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-26246",
+      "name": "Alnilam",
+      "identifiers": [
+        "HIP 26311",
+        "HD 37128",
+        "HR 1903",
+        "Bayer 46Eps Ori"
+      ],
+      "raDeg": 84.053385,
+      "decDeg": -1.20192,
+      "magnitude": 1.69,
+      "kind": "STAR",
+      "color": [
+        0.6572,
+        0.7556,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-26662",
+      "name": "Alnitak",
+      "identifiers": [
+        "HIP 26727",
+        "HD 37742",
+        "HR 1948",
+        "Bayer 50Zet Ori"
+      ],
+      "raDeg": 85.189695,
+      "decDeg": -1.942572,
+      "magnitude": 1.74,
+      "kind": "STAR",
+      "color": [
+        0.6504,
+        0.7503,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-27298",
+      "name": "Saiph",
+      "identifiers": [
+        "HIP 27366",
+        "HD 38771",
+        "HR 2004",
+        "Bayer 53Kap Ori"
+      ],
+      "raDeg": 86.939115,
+      "decDeg": -9.669605,
+      "magnitude": 2.07,
+      "kind": "STAR",
+      "color": [
+        0.6644,
+        0.7612,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-27919",
+      "name": "Betelgeuse",
+      "identifiers": [
+        "HIP 27989",
+        "HD 39801",
+        "HR 2061",
+        "Bayer 58Alp Ori"
+      ],
+      "raDeg": 88.792935,
+      "decDeg": 7.407063,
+      "magnitude": 0.45,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.73,
+        0.48,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-28288",
+      "name": "Menkalinan",
+      "identifiers": [
+        "HIP 28360",
+        "HD 40183",
+        "HR 2088",
+        "Bayer 34Bet Aur"
+      ],
+      "raDeg": 89.882235,
+      "decDeg": 44.947433,
+      "magnitude": 1.9,
+      "kind": "STAR",
+      "color": [
+        0.765,
+        0.8354,
+        0.9846,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-30251",
+      "name": "Mirzam",
+      "identifiers": [
+        "HIP 30324",
+        "HD 44743",
+        "HR 2294",
+        "Bayer 2Bet CMa"
+      ],
+      "raDeg": 95.674935,
+      "decDeg": -17.955918,
+      "magnitude": 1.98,
+      "kind": "STAR",
+      "color": [
+        0.632,
+        0.736,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-30365",
+      "name": "Canopus",
+      "identifiers": [
+        "HIP 30438",
+        "HD 45348",
+        "HR 2326",
+        "Bayer Alp Car"
+      ],
+      "raDeg": 95.987925,
+      "decDeg": -52.69566,
+      "magnitude": -0.62,
+      "kind": "STAR",
+      "color": [
+        0.7933,
+        0.8528,
+        0.9672,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-31601",
+      "name": "Alhena",
+      "identifiers": [
+        "HIP 31681",
+        "HD 47105",
+        "HR 2421",
+        "Bayer 24Gam Gem"
+      ],
+      "raDeg": 99.42792,
+      "decDeg": 16.399252,
+      "magnitude": 1.93,
+      "kind": "STAR",
+      "color": [
+        0.7403,
+        0.8202,
+        0.9998,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-32263",
+      "name": "Sirius",
+      "identifiers": [
+        "HIP 32349",
+        "HD 48915",
+        "HR 2491",
+        "Bayer 9Alp CMa"
+      ],
+      "raDeg": 101.287215,
+      "decDeg": -16.716116,
+      "magnitude": -1.44,
+      "kind": "STAR",
+      "color": [
+        0.7429,
+        0.8218,
+        0.9982,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-33492",
+      "name": "Adhara",
+      "identifiers": [
+        "HIP 33579",
+        "HD 52089",
+        "HR 2618",
+        "Bayer 21Eps CMa"
+      ],
+      "raDeg": 104.656455,
+      "decDeg": -28.972084,
+      "magnitude": 1.5,
+      "kind": "STAR",
+      "color": [
+        0.6451,
+        0.7461,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-34354",
+      "name": "Wezen",
+      "identifiers": [
+        "HIP 34444",
+        "HD 54605",
+        "HR 2693",
+        "Bayer 25Del CMa"
+      ],
+      "raDeg": 107.097855,
+      "decDeg": -26.3932,
+      "magnitude": 1.83,
+      "kind": "STAR",
+      "color": [
+        0.9581,
+        0.9542,
+        0.8658,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-36744",
+      "name": "Castor",
+      "identifiers": [
+        "HIP 36850",
+        "HD 60179",
+        "HR 2891",
+        "Bayer 66Alp Gem"
+      ],
+      "raDeg": 113.64951,
+      "decDeg": 31.888276,
+      "magnitude": 1.58,
+      "kind": "STAR",
+      "color": [
+        0.751,
+        0.8268,
+        0.9932,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-37173",
+      "name": "Procyon",
+      "identifiers": [
+        "HIP 37279",
+        "HD 61421",
+        "HR 2943",
+        "Bayer 10Alp CMi"
+      ],
+      "raDeg": 114.825495,
+      "decDeg": 5.224993,
+      "magnitude": 0.4,
+      "kind": "STAR",
+      "color": [
+        0.8804,
+        0.9064,
+        0.9136,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-37718",
+      "name": "Pollux",
+      "identifiers": [
+        "HIP 37826",
+        "HD 62509",
+        "HR 2990",
+        "Bayer 78Bet Gem"
+      ],
+      "raDeg": 116.329155,
+      "decDeg": 28.026199,
+      "magnitude": 1.16,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.9118,
+        0.7418,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-40921",
+      "name": "Avior",
+      "identifiers": [
+        "HIP 41037",
+        "HD 71129",
+        "HR 3307",
+        "Bayer Eps Car"
+      ],
+      "raDeg": 125.62854,
+      "decDeg": -59.509483,
+      "magnitude": 1.86,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.8386,
+        0.6363,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-45106",
+      "name": "Miaplacidus",
+      "identifiers": [
+        "HIP 45238",
+        "HD 80007",
+        "HR 3685",
+        "Bayer Bet Car"
+      ],
+      "raDeg": 138.300615,
+      "decDeg": -69.717208,
+      "magnitude": 1.67,
+      "kind": "STAR",
+      "color": [
+        0.7628,
+        0.834,
+        0.986,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-46259",
+      "name": "Alphard",
+      "identifiers": [
+        "HIP 46390",
+        "HD 81797",
+        "HR 3748",
+        "Bayer 30Alp Hya"
+      ],
+      "raDeg": 141.89685,
+      "decDeg": -8.658603,
+      "magnitude": 1.99,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.7514,
+        0.5109,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-49528",
+      "name": "Regulus",
+      "identifiers": [
+        "HIP 49669",
+        "HD 87901",
+        "HR 3982",
+        "Bayer 32Alp Leo"
+      ],
+      "raDeg": 152.09298,
+      "decDeg": 11.967207,
+      "magnitude": 1.36,
+      "kind": "STAR",
+      "color": [
+        0.7008,
+        0.7895,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-53754",
+      "name": "Merak",
+      "identifiers": [
+        "HIP 53910",
+        "HD 95418",
+        "HR 4295",
+        "Bayer 48Bet UMa"
+      ],
+      "raDeg": 165.460155,
+      "decDeg": 56.382427,
+      "magnitude": 2.34,
+      "kind": "STAR",
+      "color": [
+        0.7507,
+        0.8266,
+        0.9934,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-53905",
+      "name": "Dubhe",
+      "identifiers": [
+        "HIP 54061",
+        "HD 95689",
+        "HR 4301",
+        "Bayer 50Alp UMa"
+      ],
+      "raDeg": 165.932325,
+      "decDeg": 61.751033,
+      "magnitude": 1.81,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.8868,
+        0.7058,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-57828",
+      "name": "Phecda",
+      "identifiers": [
+        "HIP 58001",
+        "HD 103287",
+        "HR 4554",
+        "Bayer 64Gam UMa"
+      ],
+      "raDeg": 178.45752,
+      "decDeg": 53.69476,
+      "magnitude": 2.41,
+      "kind": "STAR",
+      "color": [
+        0.7543,
+        0.8288,
+        0.9912,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-59592",
+      "name": "Megrez",
+      "identifiers": [
+        "HIP 59774",
+        "HD 106591",
+        "HR 4660",
+        "Bayer 69Del UMa"
+      ],
+      "raDeg": 183.85629,
+      "decDeg": 57.032617,
+      "magnitude": 3.32,
+      "kind": "STAR",
+      "color": [
+        0.765,
+        0.8354,
+        0.9846,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-60530",
+      "name": "Acrux",
+      "identifiers": [
+        "HIP 60718",
+        "HD 108248",
+        "HR 4730",
+        "Bayer Alp1Cru"
+      ],
+      "raDeg": 186.649665,
+      "decDeg": -63.099092,
+      "magnitude": 0.77,
+      "kind": "STAR",
+      "color": [
+        0.6307,
+        0.7349,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-60893",
+      "name": "Gacrux",
+      "identifiers": [
+        "HIP 61084",
+        "HD 108903",
+        "HR 4763",
+        "Bayer Gam Cru"
+      ],
+      "raDeg": 187.791435,
+      "decDeg": -57.113212,
+      "magnitude": 1.59,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.68,
+        0.448,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-62239",
+      "name": "Mimosa",
+      "identifiers": [
+        "HIP 62434",
+        "HD 111123",
+        "HR 4853",
+        "Bayer Bet Cru"
+      ],
+      "raDeg": 191.930385,
+      "decDeg": -59.688764,
+      "magnitude": 1.25,
+      "kind": "STAR",
+      "color": [
+        0.6329,
+        0.7367,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-62757",
+      "name": "Alioth",
+      "identifiers": [
+        "HIP 62956",
+        "HD 112185",
+        "HR 4905",
+        "Bayer 77Eps UMa"
+      ],
+      "raDeg": 193.50708,
+      "decDeg": 55.959821,
+      "magnitude": 1.76,
+      "kind": "STAR",
+      "color": [
+        0.7301,
+        0.8123,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-65173",
+      "name": "Mizar",
+      "identifiers": [
+        "HIP 65378",
+        "HD 116656",
+        "HR 5054",
+        "Bayer 79Zet UMa"
+      ],
+      "raDeg": 200.981205,
+      "decDeg": 54.925362,
+      "magnitude": 2.23,
+      "kind": "STAR",
+      "color": [
+        0.7585,
+        0.8314,
+        0.9886,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-65269",
+      "name": "Spica",
+      "identifiers": [
+        "HIP 65474",
+        "HD 116658",
+        "HR 5056",
+        "Bayer 67Alp Vir"
+      ],
+      "raDeg": 201.298245,
+      "decDeg": -11.161322,
+      "magnitude": 0.98,
+      "kind": "STAR",
+      "color": [
+        0.6343,
+        0.7378,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-67088",
+      "name": "Alkaid",
+      "identifiers": [
+        "HIP 67301",
+        "HD 120315",
+        "HR 5191",
+        "Bayer 85Eta UMa"
+      ],
+      "raDeg": 206.88531,
+      "decDeg": 49.313265,
+      "magnitude": 1.85,
+      "kind": "STAR",
+      "color": [
+        0.6955,
+        0.7853,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-68483",
+      "name": "Hadar",
+      "identifiers": [
+        "HIP 68702",
+        "HD 122451",
+        "HR 5267",
+        "Bayer Bet Cen"
+      ],
+      "raDeg": 210.955935,
+      "decDeg": -60.373039,
+      "magnitude": 0.61,
+      "kind": "STAR",
+      "color": [
+        0.6361,
+        0.7391,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-69451",
+      "name": "Arcturus",
+      "identifiers": [
+        "HIP 69673",
+        "HD 124897",
+        "HR 5340",
+        "Bayer 16Alp Boo"
+      ],
+      "raDeg": 213.91545,
+      "decDeg": 19.18241,
+      "magnitude": -0.05,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.8232,
+        0.6142,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-71456",
+      "name": "Rigil Kentaurus",
+      "identifiers": [
+        "HIP 71683",
+        "HD 128620",
+        "HR 5459",
+        "Bayer Alp1Cen"
+      ],
+      "raDeg": 219.911475,
+      "decDeg": -60.833976,
+      "magnitude": -0.01,
+      "kind": "STAR",
+      "color": [
+        0.9708,
+        0.962,
+        0.858,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-80519",
+      "name": "Antares",
+      "identifiers": [
+        "HIP 80763",
+        "HD 148478",
+        "HR 6134",
+        "Bayer 21Alp Sco"
+      ],
+      "raDeg": 247.35192,
+      "decDeg": -26.432002,
+      "magnitude": 1.06,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.5475,
+        0.3632,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-82022",
+      "name": "Atria",
+      "identifiers": [
+        "HIP 82273",
+        "HD 150798",
+        "HR 6217",
+        "Bayer Alp TrA"
+      ],
+      "raDeg": 252.166155,
+      "decDeg": -69.027715,
+      "magnitude": 1.91,
+      "kind": "STAR",
+      "color": [
+        1.0,
+        0.7489,
+        0.5073,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-85665",
+      "name": "Shaula",
+      "identifiers": [
+        "HIP 85927",
+        "HD 158926",
+        "HR 6527",
+        "Bayer 35Lam Sco"
+      ],
+      "raDeg": 263.402175,
+      "decDeg": -37.103821,
+      "magnitude": 1.62,
+      "kind": "STAR",
+      "color": [
+        0.6361,
+        0.7391,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-85965",
+      "name": "Sargas",
+      "identifiers": [
+        "HIP 86228",
+        "HD 159532",
+        "HR 6553",
+        "Bayer The Sco"
+      ],
+      "raDeg": 264.3297,
+      "decDeg": -42.997824,
+      "magnitude": 1.86,
+      "kind": "STAR",
+      "color": [
+        0.872,
+        0.9012,
+        0.9188,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-89906",
+      "name": "Kaus Australis",
+      "identifiers": [
+        "HIP 90185",
+        "HD 169022",
+        "HR 6879",
+        "Bayer 20Eps Sgr"
+      ],
+      "raDeg": 276.04302,
+      "decDeg": -34.384616,
+      "magnitude": 1.79,
+      "kind": "STAR",
+      "color": [
+        0.726,
+        0.8091,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-90979",
+      "name": "Vega",
+      "identifiers": [
+        "HIP 91262",
+        "HD 172167",
+        "HR 7001",
+        "Bayer 3Alp Lyr"
+      ],
+      "raDeg": 279.2346,
+      "decDeg": 38.783692,
+      "magnitude": 0.03,
+      "kind": "STAR",
+      "color": [
+        0.7396,
+        0.8196,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-92564",
+      "name": "Nunki",
+      "identifiers": [
+        "HIP 92855",
+        "HD 175191",
+        "HR 7121",
+        "Bayer 34Sig Sgr"
+      ],
+      "raDeg": 283.81635,
+      "decDeg": -26.296722,
+      "magnitude": 2.05,
+      "kind": "STAR",
+      "color": [
+        0.6797,
+        0.7731,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-97338",
+      "name": "Altair",
+      "identifiers": [
+        "HIP 97649",
+        "HD 187642",
+        "HR 7557",
+        "Bayer 53Alp Aql"
+      ],
+      "raDeg": 297.69582,
+      "decDeg": 8.868322,
+      "magnitude": 0.76,
+      "kind": "STAR",
+      "color": [
+        0.8118,
+        0.8642,
+        0.9558,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-100425",
+      "name": "Peacock",
+      "identifiers": [
+        "HIP 100751",
+        "HD 193924",
+        "HR 7790",
+        "Bayer Alp Pav"
+      ],
+      "raDeg": 306.411885,
+      "decDeg": -56.73509,
+      "magnitude": 1.94,
+      "kind": "STAR",
+      "color": [
+        0.6869,
+        0.7787,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-101767",
+      "name": "Deneb",
+      "identifiers": [
+        "HIP 102098",
+        "HD 197345",
+        "HR 7924",
+        "Bayer 50Alp Cyg"
+      ],
+      "raDeg": 310.35798,
+      "decDeg": 45.280338,
+      "magnitude": 1.25,
+      "kind": "STAR",
+      "color": [
+        0.7699,
+        0.8384,
+        0.9816,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-108922",
+      "name": "Alnair",
+      "identifiers": [
+        "HIP 109268",
+        "HD 209952",
+        "HR 8425",
+        "Bayer Alp Gru"
+      ],
+      "raDeg": 332.058135,
+      "decDeg": -46.960975,
+      "magnitude": 1.73,
+      "kind": "STAR",
+      "color": [
+        0.7085,
+        0.7955,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hyg-113008",
+      "name": "Fomalhaut",
+      "identifiers": [
+        "HIP 113368",
+        "HD 216956",
+        "HR 8728",
+        "Bayer 24Alp PsA"
+      ],
+      "raDeg": 344.41257,
+      "decDeg": -29.622236,
+      "magnitude": 1.17,
+      "kind": "STAR",
+      "color": [
+        0.7871,
+        0.849,
+        0.971,
+        1.0
+      ]
+    },
+    {
+      "id": "openngc-IC4715",
+      "name": "Small Sgr Star Cloud",
+      "identifiers": [
+        "M 24",
+        "IC4715"
+      ],
+      "raDeg": 274.23383333,
+      "decDeg": -18.51455556,
+      "magnitude": 4.5,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:2|MinAx:2|PosAng:2|V-Mag:10"
+    },
+    {
+      "id": "openngc-IC4725",
+      "name": "M 25",
+      "identifiers": [
+        "M 25",
+        "IC4725"
+      ],
+      "raDeg": 277.944875,
+      "decDeg": -19.11494444,
+      "magnitude": 4.6,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC0205",
+      "name": "M 110",
+      "identifiers": [
+        "M 110",
+        "NGC0205"
+      ],
+      "raDeg": 10.092,
+      "decDeg": 41.68530556,
+      "magnitude": 8.15,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC0221",
+      "name": "M 32",
+      "identifiers": [
+        "M 32",
+        "NGC0221"
+      ],
+      "raDeg": 10.67429167,
+      "decDeg": 40.86527778,
+      "magnitude": 8.13,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC0224",
+      "name": "Andromeda Galaxy",
+      "identifiers": [
+        "M 31",
+        "NGC0224"
+      ],
+      "raDeg": 10.68479167,
+      "decDeg": 41.26905556,
+      "magnitude": 3.44,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:2|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pax:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC0581",
+      "name": "M 103",
+      "identifiers": [
+        "M 103",
+        "NGC0581"
+      ],
+      "raDeg": 23.340875,
+      "decDeg": 60.658,
+      "magnitude": 7.4,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC0598",
+      "name": "Triangulum Galaxy",
+      "identifiers": [
+        "M 33",
+        "NGC0598",
+        "Triangulum Pinwheel"
+      ],
+      "raDeg": 23.46204167,
+      "decDeg": 30.66022222,
+      "magnitude": 5.79,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC0628",
+      "name": "M 74",
+      "identifiers": [
+        "M 74",
+        "NGC0628"
+      ],
+      "raDeg": 24.17395833,
+      "decDeg": 15.78366667,
+      "magnitude": 9.31,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC0650",
+      "name": "Barbell Nebula",
+      "identifiers": [
+        "M 76",
+        "NGC0650",
+        "NGC 0651",
+        "Cork Nebula",
+        "Little Dumbbell Nebula"
+      ],
+      "raDeg": 25.58204167,
+      "decDeg": 51.57547222,
+      "magnitude": 10.1,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:8|B-Mag:3|V-Mag:3|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2|Cstar V-Mag:8"
+    },
+    {
+      "id": "openngc-NGC1039",
+      "name": "M 34",
+      "identifiers": [
+        "M 34",
+        "NGC1039"
+      ],
+      "raDeg": 40.53083333,
+      "decDeg": 42.74613889,
+      "magnitude": 5.2,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC1068",
+      "name": "M 77",
+      "identifiers": [
+        "M 77",
+        "NGC1068"
+      ],
+      "raDeg": 40.669625,
+      "decDeg": -0.01327778,
+      "magnitude": 9.29,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC1904",
+      "name": "M 79",
+      "identifiers": [
+        "M 79",
+        "NGC1904"
+      ],
+      "raDeg": 81.044125,
+      "decDeg": -24.52422222,
+      "magnitude": 8.16,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC1912",
+      "name": "M 38",
+      "identifiers": [
+        "M 38",
+        "NGC1912"
+      ],
+      "raDeg": 82.17704167,
+      "decDeg": 35.85491667,
+      "magnitude": 6.4,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC1952",
+      "name": "Crab Nebula",
+      "identifiers": [
+        "M 1",
+        "NGC1952"
+      ],
+      "raDeg": 83.63320833,
+      "decDeg": 22.01447222,
+      "magnitude": 8.4,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:9|MinAx:9|V-Mag:3"
+    },
+    {
+      "id": "openngc-NGC1960",
+      "name": "M 36",
+      "identifiers": [
+        "M 36",
+        "NGC1960"
+      ],
+      "raDeg": 84.07391667,
+      "decDeg": 34.14075,
+      "magnitude": 6.0,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC1976",
+      "name": "Great Orion Nebula",
+      "identifiers": [
+        "M 42",
+        "NGC1976",
+        "Orion Nebula"
+      ],
+      "raDeg": 83.81866667,
+      "decDeg": -5.38966667,
+      "magnitude": 4.0,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:9|MinAx:9|B-Mag:3|V-Mag:10|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC1982",
+      "name": "Mairan's Nebula",
+      "identifiers": [
+        "M 43",
+        "NGC1982"
+      ],
+      "raDeg": 83.88075,
+      "decDeg": -5.26747222,
+      "magnitude": 9.0,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|B-Mag:3|V-Mag:10"
+    },
+    {
+      "id": "openngc-NGC2068",
+      "name": "M 78",
+      "identifiers": [
+        "M 78",
+        "NGC2068"
+      ],
+      "raDeg": 86.69091667,
+      "decDeg": 0.07930556,
+      "magnitude": 8.0,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:10|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2099",
+      "name": "M 37",
+      "identifiers": [
+        "M 37",
+        "NGC2099"
+      ],
+      "raDeg": 88.07645833,
+      "decDeg": 32.553,
+      "magnitude": 5.6,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2168",
+      "name": "M 35",
+      "identifiers": [
+        "M 35",
+        "NGC2168"
+      ],
+      "raDeg": 92.27108333,
+      "decDeg": 24.33863889,
+      "magnitude": null,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2287",
+      "name": "M 41",
+      "identifiers": [
+        "M 41",
+        "NGC2287"
+      ],
+      "raDeg": 101.49975,
+      "decDeg": -20.75422222,
+      "magnitude": 4.5,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2323",
+      "name": "M 50",
+      "identifiers": [
+        "M 50",
+        "NGC2323"
+      ],
+      "raDeg": 105.668625,
+      "decDeg": -8.36402778,
+      "magnitude": 5.9,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2422",
+      "name": "M 47",
+      "identifiers": [
+        "M 47",
+        "NGC2422",
+        "NGC 2478"
+      ],
+      "raDeg": 114.14591667,
+      "decDeg": -14.48261111,
+      "magnitude": 4.4,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2437",
+      "name": "M 46",
+      "identifiers": [
+        "M 46",
+        "NGC2437"
+      ],
+      "raDeg": 115.44508333,
+      "decDeg": -14.81,
+      "magnitude": 6.1,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2447",
+      "name": "M 93",
+      "identifiers": [
+        "M 93",
+        "NGC2447"
+      ],
+      "raDeg": 116.12179167,
+      "decDeg": -23.85308333,
+      "magnitude": 6.2,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2548",
+      "name": "M 48",
+      "identifiers": [
+        "M 48",
+        "NGC2548"
+      ],
+      "raDeg": 123.42991667,
+      "decDeg": -5.75044444,
+      "magnitude": 5.8,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2632",
+      "name": "Beehive",
+      "identifiers": [
+        "M 44",
+        "NGC2632",
+        "Praesepe Cluster"
+      ],
+      "raDeg": 130.0925,
+      "decDeg": 19.67205556,
+      "magnitude": 3.1,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC2682",
+      "name": "M 67",
+      "identifiers": [
+        "M 67",
+        "NGC2682"
+      ],
+      "raDeg": 132.833875,
+      "decDeg": 11.81194444,
+      "magnitude": 6.9,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC3031",
+      "name": "Bode's Galaxy",
+      "identifiers": [
+        "M 81",
+        "NGC3031"
+      ],
+      "raDeg": 148.88820833,
+      "decDeg": 69.06530556,
+      "magnitude": 6.92,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC3034",
+      "name": "Cigar Galaxy",
+      "identifiers": [
+        "M 82",
+        "NGC3034"
+      ],
+      "raDeg": 148.96970833,
+      "decDeg": 69.67938889,
+      "magnitude": 8.3,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC3351",
+      "name": "M 95",
+      "identifiers": [
+        "M 95",
+        "NGC3351"
+      ],
+      "raDeg": 160.99041667,
+      "decDeg": 11.70380556,
+      "magnitude": 9.77,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC3368",
+      "name": "M 96",
+      "identifiers": [
+        "M 96",
+        "NGC3368"
+      ],
+      "raDeg": 161.69058333,
+      "decDeg": 11.81994444,
+      "magnitude": 9.21,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC3379",
+      "name": "M 105",
+      "identifiers": [
+        "M 105",
+        "NGC3379"
+      ],
+      "raDeg": 161.956625,
+      "decDeg": 12.58161111,
+      "magnitude": 9.27,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC3556",
+      "name": "M 108",
+      "identifiers": [
+        "M 108",
+        "NGC3556"
+      ],
+      "raDeg": 167.87904167,
+      "decDeg": 55.67411111,
+      "magnitude": 10.05,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC3587",
+      "name": "Owl Nebula",
+      "identifiers": [
+        "M 97",
+        "NGC3587"
+      ],
+      "raDeg": 168.69879167,
+      "decDeg": 55.01902778,
+      "magnitude": 9.9,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:99|B-Mag:3|V-Mag:3|J-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2|Cstar U-Mag:8|Cstar B-Mag:8|Cstar V-Mag:8"
+    },
+    {
+      "id": "openngc-NGC3623",
+      "name": "M 65",
+      "identifiers": [
+        "M 65",
+        "NGC3623"
+      ],
+      "raDeg": 169.733,
+      "decDeg": 13.09236111,
+      "magnitude": 9.32,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC3627",
+      "name": "M 66",
+      "identifiers": [
+        "M 66",
+        "NGC3627"
+      ],
+      "raDeg": 170.06233333,
+      "decDeg": 12.99152778,
+      "magnitude": 8.92,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:2|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC3992",
+      "name": "M 109",
+      "identifiers": [
+        "M 109",
+        "NGC3992"
+      ],
+      "raDeg": 179.39991667,
+      "decDeg": 53.37452778,
+      "magnitude": 9.88,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4192",
+      "name": "M 98",
+      "identifiers": [
+        "M 98",
+        "NGC4192"
+      ],
+      "raDeg": 183.45120833,
+      "decDeg": 14.90033333,
+      "magnitude": 10.84,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4254",
+      "name": "Coma Pinwheel",
+      "identifiers": [
+        "M 99",
+        "NGC4254",
+        "Virgo Cluster Pinwheel"
+      ],
+      "raDeg": 184.70666667,
+      "decDeg": 14.4165,
+      "magnitude": 9.84,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4258",
+      "name": "M 106",
+      "identifiers": [
+        "M 106",
+        "NGC4258"
+      ],
+      "raDeg": 184.73958333,
+      "decDeg": 47.30397222,
+      "magnitude": 9.29,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4303",
+      "name": "M 61",
+      "identifiers": [
+        "M 61",
+        "NGC4303"
+      ],
+      "raDeg": 185.47875,
+      "decDeg": 4.47363889,
+      "magnitude": 10.25,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4321",
+      "name": "M 100",
+      "identifiers": [
+        "M 100",
+        "NGC4321"
+      ],
+      "raDeg": 185.72845833,
+      "decDeg": 15.82180556,
+      "magnitude": 9.47,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4374",
+      "name": "M 84",
+      "identifiers": [
+        "M 84",
+        "NGC4374"
+      ],
+      "raDeg": 186.26558333,
+      "decDeg": 12.88697222,
+      "magnitude": 9.79,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4382",
+      "name": "M 85",
+      "identifiers": [
+        "M 85",
+        "NGC4382"
+      ],
+      "raDeg": 186.35045833,
+      "decDeg": 18.1915,
+      "magnitude": 9.05,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4406",
+      "name": "M 86",
+      "identifiers": [
+        "M 86",
+        "NGC4406"
+      ],
+      "raDeg": 186.54891667,
+      "decDeg": 12.94622222,
+      "magnitude": 8.86,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4472",
+      "name": "M 49",
+      "identifiers": [
+        "M 49",
+        "NGC4472"
+      ],
+      "raDeg": 187.44483333,
+      "decDeg": 8.00047222,
+      "magnitude": 8.28,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4486",
+      "name": "Virgo Galaxy",
+      "identifiers": [
+        "M 87",
+        "NGC4486"
+      ],
+      "raDeg": 187.70591667,
+      "decDeg": 12.39111111,
+      "magnitude": 9.0,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4501",
+      "name": "M 88",
+      "identifiers": [
+        "M 88",
+        "NGC4501"
+      ],
+      "raDeg": 187.9965,
+      "decDeg": 14.42038889,
+      "magnitude": 10.33,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4548",
+      "name": "M 91",
+      "identifiers": [
+        "M 91",
+        "NGC4548"
+      ],
+      "raDeg": 188.86020833,
+      "decDeg": 14.49633333,
+      "magnitude": 10.96,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4552",
+      "name": "M 89",
+      "identifiers": [
+        "M 89",
+        "NGC4552"
+      ],
+      "raDeg": 188.915875,
+      "decDeg": 12.55633333,
+      "magnitude": 10.08,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4569",
+      "name": "M 90",
+      "identifiers": [
+        "M 90",
+        "NGC4569"
+      ],
+      "raDeg": 189.20745833,
+      "decDeg": 13.16294444,
+      "magnitude": 9.54,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:2|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4579",
+      "name": "M 58",
+      "identifiers": [
+        "M 58",
+        "NGC4579"
+      ],
+      "raDeg": 189.43133333,
+      "decDeg": 11.81819444,
+      "magnitude": 10.3,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4590",
+      "name": "M 68",
+      "identifiers": [
+        "M 68",
+        "NGC4590"
+      ],
+      "raDeg": 189.86670833,
+      "decDeg": -26.74302778,
+      "magnitude": 7.96,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4594",
+      "name": "Sombrero Galaxy",
+      "identifiers": [
+        "M 104",
+        "NGC4594"
+      ],
+      "raDeg": 189.997625,
+      "decDeg": -11.62305556,
+      "magnitude": 8.59,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4621",
+      "name": "M 59",
+      "identifiers": [
+        "M 59",
+        "NGC4621"
+      ],
+      "raDeg": 190.50933333,
+      "decDeg": 11.64702778,
+      "magnitude": 9.56,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4649",
+      "name": "M 60",
+      "identifiers": [
+        "M 60",
+        "NGC4649"
+      ],
+      "raDeg": 190.91658333,
+      "decDeg": 11.55269444,
+      "magnitude": 8.79,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4736",
+      "name": "M 94",
+      "identifiers": [
+        "M 94",
+        "NGC4736"
+      ],
+      "raDeg": 192.72108333,
+      "decDeg": 41.12044444,
+      "magnitude": 8.24,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:2|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC4826",
+      "name": "Black Eye Galaxy",
+      "identifiers": [
+        "M 64",
+        "NGC4826",
+        "Evil Eye Galaxy"
+      ],
+      "raDeg": 194.18183333,
+      "decDeg": 21.68297222,
+      "magnitude": 8.52,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:2|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC5024",
+      "name": "M 53",
+      "identifiers": [
+        "M 53",
+        "NGC5024"
+      ],
+      "raDeg": 198.230125,
+      "decDeg": 18.16911111,
+      "magnitude": 7.79,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC5055",
+      "name": "Sunflower Galaxy",
+      "identifiers": [
+        "M 63",
+        "NGC5055"
+      ],
+      "raDeg": 198.95554167,
+      "decDeg": 42.02927778,
+      "magnitude": 8.61,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC5194",
+      "name": "Whirlpool Galaxy",
+      "identifiers": [
+        "M 51",
+        "NGC5194"
+      ],
+      "raDeg": 202.469625,
+      "decDeg": 47.19516667,
+      "magnitude": 8.36,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:2|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|Pax:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC5236",
+      "name": "Southern Pinwheel Galaxy",
+      "identifiers": [
+        "M 83",
+        "NGC5236"
+      ],
+      "raDeg": 204.25395833,
+      "decDeg": -29.86541667,
+      "magnitude": 7.21,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC5272",
+      "name": "M 3",
+      "identifiers": [
+        "M 3",
+        "NGC5272"
+      ],
+      "raDeg": 205.54679167,
+      "decDeg": 28.37544444,
+      "magnitude": 6.39,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:3|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC5457",
+      "name": "M 101",
+      "identifiers": [
+        "M 101",
+        "NGC5457"
+      ],
+      "raDeg": 210.80225,
+      "decDeg": 54.34894444,
+      "magnitude": 7.9,
+      "kind": "GALAXY",
+      "color": [
+        0.72,
+        0.82,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC5904",
+      "name": "M 5",
+      "identifiers": [
+        "M 5",
+        "NGC5904"
+      ],
+      "raDeg": 229.640625,
+      "decDeg": 2.08269444,
+      "magnitude": 5.95,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6093",
+      "name": "M 80",
+      "identifiers": [
+        "M 80",
+        "NGC6093"
+      ],
+      "raDeg": 244.26045833,
+      "decDeg": -22.97511111,
+      "magnitude": 7.3,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:3|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6121",
+      "name": "M 4",
+      "identifiers": [
+        "M 4",
+        "NGC6121"
+      ],
+      "raDeg": 245.8975,
+      "decDeg": -26.52552778,
+      "magnitude": 5.4,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:3|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6171",
+      "name": "M 107",
+      "identifiers": [
+        "M 107",
+        "NGC6171"
+      ],
+      "raDeg": 248.133,
+      "decDeg": -13.05363889,
+      "magnitude": null,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6205",
+      "name": "Hercules Globular Cluster",
+      "identifiers": [
+        "M 13",
+        "NGC6205"
+      ],
+      "raDeg": 250.42345833,
+      "decDeg": 36.46130556,
+      "magnitude": 5.8,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:2|J-Mag:2|H-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6218",
+      "name": "M 12",
+      "identifiers": [
+        "M 12",
+        "NGC6218"
+      ],
+      "raDeg": 251.8105,
+      "decDeg": -1.94783333,
+      "magnitude": 6.07,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6254",
+      "name": "M 10",
+      "identifiers": [
+        "M 10",
+        "NGC6254"
+      ],
+      "raDeg": 254.28745833,
+      "decDeg": -4.09933333,
+      "magnitude": 4.98,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6266",
+      "name": "M 62",
+      "identifiers": [
+        "M 62",
+        "NGC6266"
+      ],
+      "raDeg": 255.3025,
+      "decDeg": -30.11236111,
+      "magnitude": null,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6273",
+      "name": "M 19",
+      "identifiers": [
+        "M 19",
+        "NGC6273"
+      ],
+      "raDeg": 255.657,
+      "decDeg": -26.26794444,
+      "magnitude": 5.57,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6333",
+      "name": "M 9",
+      "identifiers": [
+        "M 9",
+        "NGC6333"
+      ],
+      "raDeg": 259.79908333,
+      "decDeg": -18.51625,
+      "magnitude": 8.42,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6341",
+      "name": "M 92",
+      "identifiers": [
+        "M 92",
+        "NGC6341"
+      ],
+      "raDeg": 259.28029167,
+      "decDeg": 43.13652778,
+      "magnitude": 6.52,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6402",
+      "name": "M 14",
+      "identifiers": [
+        "M 14",
+        "NGC6402"
+      ],
+      "raDeg": 264.40066667,
+      "decDeg": -3.24591667,
+      "magnitude": 5.73,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6405",
+      "name": "Butterfly Cluster",
+      "identifiers": [
+        "M 6",
+        "NGC6405"
+      ],
+      "raDeg": 265.08645833,
+      "decDeg": -32.25416667,
+      "magnitude": 4.2,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6475",
+      "name": "Ptolemy's Cluster",
+      "identifiers": [
+        "M 7",
+        "NGC6475"
+      ],
+      "raDeg": 268.46325,
+      "decDeg": -34.79283333,
+      "magnitude": 3.3,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6494",
+      "name": "M 23",
+      "identifiers": [
+        "M 23",
+        "NGC6494"
+      ],
+      "raDeg": 269.269875,
+      "decDeg": -18.98533333,
+      "magnitude": 5.5,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6514",
+      "name": "Trifid Nebula",
+      "identifiers": [
+        "M 20",
+        "NGC6514"
+      ],
+      "raDeg": 270.67545833,
+      "decDeg": -22.97188889,
+      "magnitude": 8.5,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:9|MinAx:9|B-Mag:3|V-Mag:10|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6523",
+      "name": "Lagoon Nebula",
+      "identifiers": [
+        "M 8",
+        "NGC6523",
+        "NGC 6533"
+      ],
+      "raDeg": 270.92195833,
+      "decDeg": -24.38016667,
+      "magnitude": 5.8,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:9|MinAx:9|B-Mag:3|V-Mag:10|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6531",
+      "name": "M 21",
+      "identifiers": [
+        "M 21",
+        "NGC6531"
+      ],
+      "raDeg": 271.05604167,
+      "decDeg": -22.49005556,
+      "magnitude": 5.9,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:3|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6611",
+      "name": "Eagle Nebula",
+      "identifiers": [
+        "M 16",
+        "NGC6611"
+      ],
+      "raDeg": 274.70070833,
+      "decDeg": -13.80722222,
+      "magnitude": 6.0,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:9|MinAx:9|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6613",
+      "name": "M 18",
+      "identifiers": [
+        "M 18",
+        "NGC6613"
+      ],
+      "raDeg": 274.99370833,
+      "decDeg": -17.10197222,
+      "magnitude": 6.9,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6618",
+      "name": "Checkmark Nebula",
+      "identifiers": [
+        "M 17",
+        "NGC6618",
+        "Lobster Nebula",
+        "Swan Nebula",
+        "omega Nebula"
+      ],
+      "raDeg": 275.19629167,
+      "decDeg": -16.17152778,
+      "magnitude": 7.0,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:9|B-Mag:3|V-Mag:10|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6626",
+      "name": "M 28",
+      "identifiers": [
+        "M 28",
+        "NGC6626"
+      ],
+      "raDeg": 276.13704167,
+      "decDeg": -24.86983333,
+      "magnitude": 6.9,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:3|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6637",
+      "name": "M 69",
+      "identifiers": [
+        "M 69",
+        "NGC6637",
+        "NGC 6634"
+      ],
+      "raDeg": 277.84679167,
+      "decDeg": -32.34797222,
+      "magnitude": null,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6656",
+      "name": "M 22",
+      "identifiers": [
+        "M 22",
+        "NGC6656"
+      ],
+      "raDeg": 279.10083333,
+      "decDeg": -23.90341667,
+      "magnitude": null,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6681",
+      "name": "M 70",
+      "identifiers": [
+        "M 70",
+        "NGC6681"
+      ],
+      "raDeg": 280.80266667,
+      "decDeg": -32.29188889,
+      "magnitude": null,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6694",
+      "name": "M 26",
+      "identifiers": [
+        "M 26",
+        "NGC6694"
+      ],
+      "raDeg": 281.32775,
+      "decDeg": -9.38361111,
+      "magnitude": 8.87,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6705",
+      "name": "Amas de l'Ecu de Sobieski",
+      "identifiers": [
+        "M 11",
+        "NGC6705",
+        "Wild Duck Cluster"
+      ],
+      "raDeg": 282.77495833,
+      "decDeg": -6.27002778,
+      "magnitude": 5.8,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6715",
+      "name": "M 54",
+      "identifiers": [
+        "M 54",
+        "NGC6715"
+      ],
+      "raDeg": 283.763625,
+      "decDeg": -30.4785,
+      "magnitude": 7.7,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:3|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6720",
+      "name": "Ring Nebula",
+      "identifiers": [
+        "M 57",
+        "NGC6720"
+      ],
+      "raDeg": 283.395875,
+      "decDeg": 33.02858333,
+      "magnitude": 8.8,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:8|B-Mag:3|V-Mag:3|J-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2|Cstar B-Mag:8|Cstar V-Mag:8"
+    },
+    {
+      "id": "openngc-NGC6779",
+      "name": "M 56",
+      "identifiers": [
+        "M 56",
+        "NGC6779"
+      ],
+      "raDeg": 289.14795833,
+      "decDeg": 30.1845,
+      "magnitude": 8.4,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:3|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6809",
+      "name": "M 55",
+      "identifiers": [
+        "M 55",
+        "NGC6809"
+      ],
+      "raDeg": 294.9975,
+      "decDeg": -30.96208333,
+      "magnitude": 6.49,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6838",
+      "name": "M 71",
+      "identifiers": [
+        "M 71",
+        "NGC6838",
+        "NGC 6839"
+      ],
+      "raDeg": 298.442125,
+      "decDeg": 18.77838889,
+      "magnitude": null,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6853",
+      "name": "Dumbbell Nebula",
+      "identifiers": [
+        "M 27",
+        "NGC6853"
+      ],
+      "raDeg": 299.90158333,
+      "decDeg": 22.72102778,
+      "magnitude": 7.4,
+      "kind": "NEBULA",
+      "color": [
+        0.55,
+        0.78,
+        1.0,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:8|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2|Cstar U-Mag:8|Cstar B-Mag:8|Cstar V-Mag:8"
+    },
+    {
+      "id": "openngc-NGC6864",
+      "name": "M 75",
+      "identifiers": [
+        "M 75",
+        "NGC6864"
+      ],
+      "raDeg": 301.52016667,
+      "decDeg": -21.92222222,
+      "magnitude": 8.26,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:2|J-Mag:2|H-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6913",
+      "name": "M 29",
+      "identifiers": [
+        "M 29",
+        "NGC6913"
+      ],
+      "raDeg": 305.99070833,
+      "decDeg": 38.50766667,
+      "magnitude": 6.6,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6981",
+      "name": "M 72",
+      "identifiers": [
+        "M 72",
+        "NGC6981"
+      ],
+      "raDeg": 313.36629167,
+      "decDeg": -12.53705556,
+      "magnitude": 8.96,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC6994",
+      "name": "M 73",
+      "identifiers": [
+        "M 73",
+        "NGC6994"
+      ],
+      "raDeg": 314.73320833,
+      "decDeg": -12.6355,
+      "magnitude": 8.9,
+      "kind": "OTHER",
+      "color": [
+        0.8,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|V-Mag:3"
+    },
+    {
+      "id": "openngc-NGC7078",
+      "name": "M 15",
+      "identifiers": [
+        "M 15",
+        "NGC7078"
+      ],
+      "raDeg": 322.49325,
+      "decDeg": 12.16683333,
+      "magnitude": 6.3,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:3|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC7089",
+      "name": "M 2",
+      "identifiers": [
+        "M 2",
+        "NGC7089"
+      ],
+      "raDeg": 323.36254167,
+      "decDeg": -0.82330556,
+      "magnitude": 6.25,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC7092",
+      "name": "M 39",
+      "identifiers": [
+        "M 39",
+        "NGC7092"
+      ],
+      "raDeg": 322.95133333,
+      "decDeg": 48.43816667,
+      "magnitude": 4.6,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC7099",
+      "name": "M 30",
+      "identifiers": [
+        "M 30",
+        "NGC7099"
+      ],
+      "raDeg": 325.09175,
+      "decDeg": -23.17908333,
+      "magnitude": 7.1,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:2|K-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-NGC7654",
+      "name": "M 52",
+      "identifiers": [
+        "M 52",
+        "NGC7654"
+      ],
+      "raDeg": 351.20166667,
+      "decDeg": 61.59316667,
+      "magnitude": 6.9,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|MajAx:5|V-Mag:3|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "openngc-M040",
+      "name": "M 40",
+      "identifiers": [
+        "M 40",
+        "M040"
+      ],
+      "raDeg": 185.56708333,
+      "decDeg": 58.08444444,
+      "magnitude": 8.0,
+      "kind": "OTHER",
+      "color": [
+        0.8,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99|V-Mag:10"
+    },
+    {
+      "id": "openngc-M102",
+      "name": "M 101",
+      "identifiers": [
+        "M 101",
+        "M102"
+      ],
+      "raDeg": 210.80225,
+      "decDeg": 54.34894444,
+      "magnitude": null,
+      "kind": "OTHER",
+      "color": [
+        0.8,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "sourceNotes": "Type:1|RA:1|Dec:1|Const:99"
+    },
+    {
+      "id": "openngc-Mel022",
+      "name": "Pleiades",
+      "identifiers": [
+        "M 45",
+        "Mel022"
+      ],
+      "raDeg": 56.86916667,
+      "decDeg": 24.10527778,
+      "magnitude": 1.2,
+      "kind": "STAR_CLUSTER",
+      "color": [
+        1.0,
+        0.88,
+        0.62,
+        1.0
+      ],
+      "sourceNotes": "Type:2|RA:2|Dec:2|Const:99|MajAx:5|V-Mag:10|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2"
+    },
+    {
+      "id": "solar-system-sun",
+      "name": "Sun",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "sun",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 0,
+        "sizePx": 34,
+        "maxZoomSizePx": 134
+      }
+    },
+    {
+      "id": "solar-system-moon",
+      "name": "Moon",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "moon",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 1,
+        "sizePx": 32,
+        "maxZoomSizePx": 204
+      }
+    },
+    {
+      "id": "solar-system-mercury",
+      "name": "Mercury",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "planet",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 2,
+        "sizePx": 24,
+        "maxZoomSizePx": 172
+      }
+    },
+    {
+      "id": "solar-system-venus",
+      "name": "Venus",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "planet",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 3,
+        "sizePx": 26,
+        "maxZoomSizePx": 169
+      }
+    },
+    {
+      "id": "solar-system-earth",
+      "name": "Earth",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "planet",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 4,
+        "sizePx": 26,
+        "maxZoomSizePx": 154
+      }
+    },
+    {
+      "id": "solar-system-mars",
+      "name": "Mars",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "planet",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 5,
+        "sizePx": 24,
+        "maxZoomSizePx": 152
+      }
+    },
+    {
+      "id": "solar-system-jupiter",
+      "name": "Jupiter",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "planet",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 6,
+        "sizePx": 28,
+        "maxZoomSizePx": 144
+      }
+    },
+    {
+      "id": "solar-system-saturn",
+      "name": "Saturn",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "planet",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 7,
+        "sizePx": 28,
+        "maxZoomSizePx": 128
+      }
+    },
+    {
+      "id": "solar-system-uranus",
+      "name": "Uranus",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "planet",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 8,
+        "sizePx": 24,
+        "maxZoomSizePx": 156
+      }
+    },
+    {
+      "id": "solar-system-neptune",
+      "name": "Neptune",
+      "identifiers": [],
+      "raDeg": 0.0,
+      "decDeg": 0.0,
+      "magnitude": null,
+      "kind": "SOLAR_SYSTEM",
+      "dynamicPosition": "planet",
+      "visual": {
+        "atlas": "celestial_atlas",
+        "cell": 9,
+        "sizePx": 24,
+        "maxZoomSizePx": 152
+      }
+    }
+  ]
+}

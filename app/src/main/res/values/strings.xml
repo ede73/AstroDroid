@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Astro Droid</string>
+    <string name="action_settings">About &amp; data credits</string>
+    <string name="catalog_credits_title">Sky catalog data</string>
+    <string name="catalog_credits">The bundled sky catalog includes data adapted by filtering and converting coordinates from:\n\nHYG Database v4.1 by David Nash (Astronexus), compiled from Hipparcos, Yale Bright Star Catalog, and Gliese catalogs.\nhttps://github.com/astronexus/HYG-Database\n\nOpenNGC by Mattia Verga, built from NED, HyperLEDA, SIMBAD, HEASARC, and other documented sources.\nhttps://github.com/mattiaverga/OpenNGC\n\nThe adapted catalog data in sky_catalog.json is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).\nhttps://creativecommons.org/licenses/by-sa/4.0/\n\nThis license notice covers catalog data only; AstroDroid source-code licensing is separate.</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">AstroDroid</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
